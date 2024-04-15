@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: coral;
+}
+
+.s-img{
+    height: 20px;
+    width:250px
+}
