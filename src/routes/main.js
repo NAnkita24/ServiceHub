@@ -6,8 +6,6 @@ const Slider=require('../models/Slider')
 const Service=require('../models/Service')
 const Contact = require('../models/Contact')
 
-
-
 routes.get('/',async (req,resp)=>{
     const details = await Detail.findOne({'_id':"661b7d04de8ef4d4d74d01a4"})
     const Slides=await Slider.find()
